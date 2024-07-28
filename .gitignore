@@ -23,15 +23,19 @@
 # Compiled Static libraries
 *.lai
 *.la
-#*.a
+*.a
 *.lib
 
 # Executables
-#*.exe
-#*.out
-#*.app
-#*.wasm
-#*.html
+*.exe
+*.out
+*.app
+*.wasm
+*.html
 
+# Settings
+ .vscode
+
+# Builds
 build/
 build_web/
